@@ -47,7 +47,7 @@ body{
 a{color:inherit; text-decoration:none}
 button,input,textarea{font:inherit}
 
-.container{width:min(1100px, 92vw); margin: 0 auto}
+.container{width:min(1100px, 92vw); margin: 0 auto;}
 
 .skip-link{
   position:absolute; left:-999px; top:10px;
@@ -309,16 +309,17 @@ button,input,textarea{font:inherit}
 .skill-pct{color:var(--muted); font-weight:800}
 .bar{height:12px; border-radius:999px; border:1px solid rgba(255,255,255,.12); background: rgba(255,255,255,.03); overflow:hidden}
 .bar-fill{display:block; height:100%; width:0%; background: linear-gradient(90deg, rgba(109,91,255,1), rgba(47,123,255,1)); border-radius:999px; transition: width 1.1s cubic-bezier(.4,.12,.4,.2)}
-
+.projects-carts{display:flex;flex-direction: column;}
 .icon-grid{display:grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap:12px}
 .icon-tile{padding:22px; border-radius:16px; background: rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.10); display:flex; gap:12px; align-items:center}
 .icon-emoji{font-size:1.2rem}
 .icon-label{font-weight:900}
 .mini-card{margin-top:14px}
 
+
 .projects-grid{display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap:18px}
 .project-card{padding:0; overflow:hidden}
-.project-media{padding:28px; background: linear-gradient(135deg, rgba(109,91,255,.18), rgba(47,123,255,.08)); border-bottom:1px solid rgba(255,255,255,.10)}
+.project-media{padding:8px; background: linear-gradient(135deg, rgba(109,91,255,.18), rgba(47,123,255,.08)); border-bottom:1px solid rgba(255,255,255,.10)}
 .media-placeholder{height:140px; border-radius:18px; background: rgba(255,255,255,.06); border:1px dashed rgba(255,255,255,.18); display:flex; align-items:center; justify-content:center; font-weight:900}
 .media-badge{margin-top:12px; color:var(--muted); font-weight:800; font-size:.95rem}
 .project-body{padding:16px 18px 18px}
